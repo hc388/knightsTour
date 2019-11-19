@@ -22,16 +22,6 @@ public class horsesProb {
 
         int x = 3;
         int y = 2;
-        //System.out.println(board[1][0]);
-        /*
-        System.out.println(board[x-1][y-2]);
-        System.out.println(board[x+1][y-2]);
-        System.out.println(board[x+2][y-1]);
-        System.out.println(board[x-2][y+1]);
-        System.out.println(board[x+2][y+1]);
-        System.out.println(board[x-1][y+2]);
-        System.out.println(board[x+1][y+2]);*/
-        //System.out.println(board[x-2][y-1]);
 
         //realMain(board, 2, 2);
 
@@ -54,7 +44,34 @@ public class horsesProb {
         }
         }
 
+
+
+
         //if realmain returns true, print the board. if it returns false, then print no moves found.
+
+    public static boolean tempMain(int[][] board, int x, int y){
+
+        if(n >23){
+            return true;
+        }
+        else{
+            int r = rand.nextInt(8);
+            int i = x + dir[r][0];
+            int j = y + dir[r][1];
+
+            if (gameOver(board, i, j))
+                return secMain(board,x,y);
+
+            if (isSafe(board, i, j)) {
+                board[i][j] = 1;
+                n++;
+                return secMain(board,i,j);
+
+            }
+        }
+        return false;
+    }
+
 
     public static boolean isSafe(int[][] board, int i, int j) {
         if (i < 5 && j < 5 && i>=0 && j>= 0) {
