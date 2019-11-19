@@ -11,7 +11,7 @@ public class checking {
                 {0, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0}};
         int i = 3; int j = 3;
-        for(int z = 0; z<500; z++) {
+        for(int z = 0; z<50; z++) {
             int tempi = i;
             int tempj = j;
 
