@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="36afc0d9-0a8a-4dd9-9477-444bf48397d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project2/checking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/horsesProb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/horsesProb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scrap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,26 +18,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/horsesProb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-end-line="97" />
+            <state relative-caret-position="152">
+              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
               <folding>
-                <element signature="method#main#0;class#horsesProb#0" />
-                <element signature="method#gameOver#0;class#horsesProb#0" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scrap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="113" column="5" lean-forward="true" selection-start-line="106" selection-start-column="4" selection-end-line="113" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scrap.java">
+        <entry file="file://$PROJECT_DIR$/src/knightProject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="63">
+              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#gameOver#0;class#scrap#0" />
-                <element signature="method#isSafe#0;class#checking#0" />
-                <element signature="method#printboard#0;class#checking#0" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,6 +62,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>0</find>
+      <find>solveKTUtil</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>-1</replace>
+      <replace>i</replace>
+      <replace>secMain</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -59,9 +80,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/looper.java" />
-        <option value="$PROJECT_DIR$/src/horsesProb.java" />
         <option value="$PROJECT_DIR$/src/checking.java" />
+        <option value="$PROJECT_DIR$/src/finalKnight.java" />
         <option value="$PROJECT_DIR$/src/scrap.java" />
+        <option value="$PROJECT_DIR$/src/finalKnightproj.java" />
+        <option value="$PROJECT_DIR$/src/horsesProb.java" />
+        <option value="$PROJECT_DIR$/src/knightProject.java" />
       </list>
     </option>
   </component>
@@ -75,7 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,13 +115,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574182104129" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574271815917" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -114,9 +138,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.scrap">
-    <configuration name="checking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="checking" />
+  <component name="RunManager" selected="Application.knightProject">
+    <configuration name="KnightTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KnightTour" />
+      <module name="Project2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="finalKnightproj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="finalKnightproj" />
       <module name="Project2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,8 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="looper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="looper" />
+    <configuration name="knightProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="knightProject" />
       <module name="Project2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,10 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.scrap" />
-        <item itemvalue="Application.checking" />
+        <item itemvalue="Application.knightProject" />
         <item itemvalue="Application.horsesProb" />
-        <item itemvalue="Application.looper" />
+        <item itemvalue="Application.KnightTour" />
+        <item itemvalue="Application.finalKnightproj" />
+        <item itemvalue="Application.scrap" />
       </list>
     </recent_temporary>
   </component>
@@ -165,18 +197,19 @@
       <workItem from="1573766241582" duration="941000" />
       <workItem from="1573886630947" duration="6054000" />
       <workItem from="1574106587823" duration="8097000" />
-      <workItem from="1574142040855" duration="4953000" />
+      <workItem from="1574142040855" duration="8591000" />
+      <workItem from="1574219095010" duration="11276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20045000" />
+    <option name="totallyTimeSpent" value="34959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -185,7 +218,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29036143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -211,6 +244,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/scrap.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -220,26 +265,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/looper.java" />
-    <entry file="file://$PROJECT_DIR$/src/horsesProb.java">
+    <entry file="file://$PROJECT_DIR$/src/scrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-end-line="97" />
+        <state relative-caret-position="246">
+          <caret line="113" column="5" lean-forward="true" selection-start-line="106" selection-start-column="4" selection-end-line="113" selection-end-column="5" />
           <folding>
-            <element signature="method#main#0;class#horsesProb#0" />
-            <element signature="method#gameOver#0;class#horsesProb#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scrap.java">
+    <entry file="file://$PROJECT_DIR$/src/horsesProb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="152">
+          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#gameOver#0;class#scrap#0" />
-            <element signature="method#isSafe#0;class#checking#0" />
-            <element signature="method#printboard#0;class#checking#0" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/knightProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
           </folding>
         </state>
       </provider>
